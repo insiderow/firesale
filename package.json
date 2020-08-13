@@ -2,11 +2,24 @@
   "name": "firesale",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/electron-in-action/firesale.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron-in-action/firesale.git"
+  },
   "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
   "license": "MIT",
   "dependencies": {
-    "electron": "^1.7.10",
+    "electron": "^1.8.8",
     "marked": "^0.3.12"
-  }
+  },
+  "description": "Completed code from [Electron in Action](http://bit.ly/electronjs).",
+  "bugs": {
+    "url": "https://github.com/electron-in-action/firesale/issues"
+  },
+  "homepage": "https://github.com/electron-in-action/firesale#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
 }
